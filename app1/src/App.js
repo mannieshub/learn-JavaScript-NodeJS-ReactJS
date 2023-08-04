@@ -1,10 +1,11 @@
 import './App.css';
+import logo from './bb.png'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src='https://www.tiktok.com/@nirvxsh/video/7259412610909572357?is_from_webapp=1&sender_device=pc' className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Tiktoker ชื่อดัง ย่านพระราม7
           พ่อน้องออนิว แล้วใครคือแม่น้องออนิว
