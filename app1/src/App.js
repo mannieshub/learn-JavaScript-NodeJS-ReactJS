@@ -6,6 +6,7 @@ import React from 'react'
 import Banner from './banner'
 import Button from './class-component'
 import { Calculator2 } from './calculator'
+import { EventData1 } from './eventdata'
 
 // 11/08/2566
 // function App(){
@@ -32,6 +33,7 @@ function App(){
     <>
       <Banner/>
       <Calculator2/>
+      <EventData1/>
     </>
   ) 
 }
