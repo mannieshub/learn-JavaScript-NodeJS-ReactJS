@@ -4,7 +4,10 @@ import React from 'react'
 // import MsgBox from './class-prop'
 
 import Banner from './banner'
+import Button from './class-component'
+import { Calculator2 } from './calculator'
 
+// 11/08/2566
 // function App(){
 //   return(
 //     <>
@@ -21,10 +24,16 @@ import Banner from './banner'
 //       border="solid 1px black"
 //       />
 //     </>
-
 //   )
- 
 // }
-export default function App(){
-  return <Banner/>
+
+function App(){
+  return(
+    <>
+      <Banner/>
+      <Calculator2/>
+    </>
+  ) 
 }
+
+export default App

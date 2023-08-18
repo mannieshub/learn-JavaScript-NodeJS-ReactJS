@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 
+
 export default class Calendar extends Component{
     getDate(){
         const dayNames=['sunday','monday','tuesday','wednesday','thursday','friday','saturday']
@@ -17,3 +18,22 @@ export default class Calendar extends Component{
         return <div>{this.getDate()}</div>
     }
 }
+
+// export default class Button extends Component{
+
+//     constructor(){
+//         super()
+//         this.onClickButtonOK = this.onClickButtonOK.bind(this)
+//     }
+
+//     showAlert(msg){
+//         alert(msg)
+//     }
+
+//     onClickButtonOK(){
+//         this.showAlert('ลาก่อนนะไอฟูม')
+//     }
+//     render(){
+//         return <button onClick ={this.onClickButtonOK}>OK</button>
+//     }
+// }
