@@ -3,10 +3,52 @@ import React from 'react'
 // import Calendar from './class-component'
 // import MsgBox from './class-prop'
 
-import Banner from './banner'
-import Button from './class-component'
-import { Calculator2 } from './calculator'
-import { EventData1, EventData2 } from './eventdata'
+import RefsClass from './ref-class'
+import RefsFunc from './refs-func'
+
+
+export default function App(){
+  return (
+    <>
+    <center><h1>Refs Class</h1></center>
+    <RefsClass/>
+    <center><h1>Refs Func</h1></center>
+    <RefsFunc/>
+    </>
+  )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import Banner from './banner'
+// import Button from './class-component'
+// import { Calculator2 } from './calculator'
+// import { EventData1, EventData2 } from './eventdata'
 
 // 11/08/2566
 // function App(){
@@ -28,15 +70,13 @@ import { EventData1, EventData2 } from './eventdata'
 //   )
 // }
 
-function App(){
-  return(
-    <>
-      <Banner/>
-      <Calculator2/>
-      <EventData1/>
-      <EventData2/>
-    </>
-  ) 
-}
-
-export default App
+// function App(){
+//   return(
+//     <>
+//       <Banner/>
+//       <Calculator2/>
+//       <EventData1/>
+//       <EventData2/>
+//     </>
+//   ) 
+// }
