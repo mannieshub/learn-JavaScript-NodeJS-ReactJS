@@ -6,6 +6,7 @@ import React from 'react'
 import RefsClass from './ref-class'
 import RefsFunc from './refs-func'
 import RefsArray from './refs-array'
+import MessageBox from './state-func'
 
 
 export default function App(){
@@ -17,6 +18,8 @@ export default function App(){
     <RefsFunc/>
     <center><h1>Refs Array</h1></center>
     <RefsArray/>
+    <center><h1>State Func</h1></center>
+    <MessageBox/>
     </>
   )
 }
