@@ -5,6 +5,7 @@ import React from 'react'
 
 import RefsClass from './ref-class'
 import RefsFunc from './refs-func'
+import RefsArray from './refs-array'
 
 
 export default function App(){
@@ -14,6 +15,8 @@ export default function App(){
     <RefsClass/>
     <center><h1>Refs Func</h1></center>
     <RefsFunc/>
+    <center><h1>Refs Array</h1></center>
+    <RefsArray/>
     </>
   )
 }
