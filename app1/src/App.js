@@ -2,12 +2,15 @@ import React from 'react'
 import { userContext } from './context'
 import Header from './context-header'
 import Content from './context-content'
+import Header2 from './context-header2'
 
 export default function App(){
+  let [user,setUser] = React.useState()
   return (
-    <userContext.Provider value={'Tom Jerry'}>
+    <userContext.Provider value={[user,setUser]}>
       <Header/>
-      <Content/>
+      <Content/> 
+      <Header2/>
     </userContext.Provider>
   )
 }
