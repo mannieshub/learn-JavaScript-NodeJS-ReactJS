@@ -1,33 +1,16 @@
 import React from 'react'
-// import {Header,Content,Footer} from './func-components'
-// import Calendar from './class-component'
-// import MsgBox from './class-prop'
-
-import RefsClass from './ref-class'
-import RefsFunc from './refs-func'
-import RefsArray from './refs-array'
-import MessageBox from './state-func'
-
+import { userContext } from './context'
+import Header from './context-header'
+import Content from './context-content'
 
 export default function App(){
   return (
-    <>
-    <center><h1>Refs Class</h1></center>
-    <RefsClass/>
-    <center><h1>Refs Func</h1></center>
-    <RefsFunc/>
-    <center><h1>Refs Array</h1></center>
-    <RefsArray/>
-    <center><h1>State Func</h1></center>
-    <MessageBox/>
-    </>
+    <userContext.Provider value={'Tom Jerry'}>
+      <Header/>
+      <Content/>
+    </userContext.Provider>
   )
 }
-
-
-
-
-
 
 
 
