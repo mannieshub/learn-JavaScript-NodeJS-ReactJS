@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter,NavLink,Route,Routes } from 'react-router-dom'
+import { BrowserRouter,NavLink,Route,Routes,Navigate } from 'react-router-dom'
 
 import './products.css'
 import './navlink.css'
@@ -40,7 +40,7 @@ export default function Router3(){
                 <Route path ="/products" element ={<Products/>}></Route>
                 <Route path ="/member" Component ={Member}></Route>
                 <Route path ="/contact" element ={<div style={{textAlign:"center"}}>Contact Us</div>}></Route>
-                <Route path ="/*" element ={<div style={{textAlign:"center"}}>Page nOde Found</div>}></Route>
+                <Route path ="/*" element = {<Navigate to ='/'></Navigate>}></Route>
             </Routes>
         </BrowserRouter>
     )
