@@ -5,15 +5,18 @@
 // import Header2 from './context-header2'
 // import Content2 from './context-content2'
 // import Router1 from './router1'
-import Router2 from './router2'
-import Router3 from './router3'
+// import Router2 from './router2'
+// import Router3 from './router3'
+
+import FormText from "./FormText";
 
 export default function App(){
   // let [user,setUser] = React.useState()
   return (
       // <Router1></Router1>,
-      <Router2/>,
-      <Router3></Router3>
+      // <Router2/>,
+      // <Router3></Router3>
+      <FormText/>
   )
 }
 
