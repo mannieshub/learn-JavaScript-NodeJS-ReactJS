@@ -9,6 +9,7 @@
 // import Router3 from './router3'
 
 import FormText from "./FormText";
+import FormCheck from "./form-check";
 
 export default function App(){
   // let [user,setUser] = React.useState()
@@ -16,7 +17,8 @@ export default function App(){
       // <Router1></Router1>,
       // <Router2/>,
       // <Router3></Router3>
-      <FormText/>
+      // <FormText/>
+      <FormCheck></FormCheck>
   )
 }
 
