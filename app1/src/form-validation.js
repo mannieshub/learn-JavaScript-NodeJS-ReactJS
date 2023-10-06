@@ -83,7 +83,7 @@ export default function FormValidation(){
                         className='form-control form-control-sm' ref={inputFile} multiple></input>
                     </div>
 
-                    <div></div>
+                    <div>ออปชันเพิ่มเติม</div>
                     {
                         opts.map((opt,i)=>{
                             return (
