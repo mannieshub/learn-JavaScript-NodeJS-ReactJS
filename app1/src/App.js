@@ -10,6 +10,7 @@
 
 import FormText from "./FormText";
 import FormCheck from "./form-check";
+import FormValidation from "./form-validation";
 
 export default function App(){
   // let [user,setUser] = React.useState()
@@ -18,7 +19,8 @@ export default function App(){
       // <Router2/>,
       // <Router3></Router3>
       // <FormText/>
-      <FormCheck></FormCheck>
+      //<FormCheck></FormCheck>
+      <FormValidation/>
   )
 }
 
